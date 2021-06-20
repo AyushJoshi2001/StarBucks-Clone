@@ -1,0 +1,18 @@
+{
+  "name": "starbucks-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "author": "Ayush Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.7"
+  }
+}
