@@ -1,1 +1,1 @@
-# StarBucks-Clone
+# StarBucks Rewards Page-Clone
