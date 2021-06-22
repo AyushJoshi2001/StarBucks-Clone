@@ -10,7 +10,7 @@ module.exports = {
       padding: {
         '4/5':'80%',
         '6.66':'15%' 
-      }    
+      }   
     },
   },
   variants: {

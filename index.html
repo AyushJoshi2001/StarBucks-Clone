@@ -10,8 +10,8 @@
 </head>
 <body>
     <!-- navigation menu -->
-    <header class="md:sticky md:top-0 bg-white max-w-screen-2xl m-auto" >
-            <div class="flex flex-row justify-between md:justify-start px-5 py-7">
+    <header class="m-auto bg-white md:sticky md:top-0 max-w-screen-2xl" >
+            <div class="flex flex-row justify-between px-5 py-4 md:justify-start">
                 <div class="pr-5">
                     <a class="outline-none" href="#">      
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 md:h-12" viewBox="0 0 62 62" focusable="false">
@@ -28,92 +28,90 @@
                     </a>
                 </div>
                 <div class="flex justify-between w-full ">
-                    <div class="md:flex md:items-center hidden">
+                    <div class="hidden md:flex md:items-center">
                         <ul class="flex space-x-5">
                             <li class="font-bold hover:text-green-700"><a href="#">MENU</a></li>
                             <li class="font-bold hover:text-green-700"><a href="#">REWARDS</a></li>
                             <li class="font-bold hover:text-green-700"><a href="#">GIFT CARDS</a></li>
                         </ul>
                     </div>
-                    <div class="hidden md:flex space-x-10">
+                    <div class="hidden space-x-10 md:flex">
                         <div class="flex items-center font-bold hover:text-green-700">
                             <svg viewBox="0 0 24 24" class="valign-middle pr2" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"></path></svg>
                             <a href="#">Find a store</a>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <button class="font-medium py-1 px-4  rounded-3xl border border-black hover:bg-gray-200">Sign in</button>
-                            <button class="text-white font-medium py-1 px-4  rounded-3xl  bg-black hover:bg-gray-600">Join now</button>
+                            <button class="px-4 py-1 font-medium border border-black rounded-3xl hover:bg-gray-200">Sign in</button>
+                            <button class="px-4 py-1 font-medium text-white bg-black rounded-3xl hover:bg-gray-600">Join now</button>
                         </div>
                     </div>
 
                 </div>
-                <div class="flex items-center md:hidden">
+                <div class="flex items-center text-gray-600 md:hidden">
                     <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;"><path class="sb-hamburgerButton-middleLine-CLOSED sb-hamburgerButton-animation" d="M21,12.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,12.9,21,12.9z"></path><path class="sb-hamburgerButton-topLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path><path class="sb-hamburgerButton-bottomLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                 </div>
             </div>
     </header>
 
     <!-- green box below nav bar -->
-    <div class=" sticky top-0 md:top-24 flex flex-row justify-between bg-green-900 px-1 md:px-5 py-3">
-        <div class="max-w-screen-2xl md:m-auto md:w-full px-10">
-            <h1 class="font-bold text-white">STARBUCKS® REWARDS</h1>
-        </div>
-        <button class="md:hidden text-white font-medium py-1 px-4  rounded-3xl border-white border  bg-green-900">Join in the app</button>
+    <div class="sticky top-0 flex flex-row items-center justify-between px-4 py-3 bg-green-900 md:py-4 md:top-20 md:px-5">
+        <h1 class="font-bold text-white">STARBUCKS® REWARDS</h1>
+        <button class="px-4 py-1 font-medium text-white bg-green-900 border border-white hover:bg-green-700 focus:outline-none md:hidden rounded-3xl">Join in the app</button>
     </div>
 
     <!-- First section -->
-    <section class="bg-blue-100 bg-mobile-background md:bg-desktop-background bg-cover bg-center">
-        <div class="max-w-screen-2xl m-auto">
+    <section class="bg-blue-100 bg-center bg-cover bg-mobile-background md:bg-desktop-background">
+        <div class="m-auto max-w-screen-2xl">
             <div class="pt-8 pb-4/5 md:py-6.66">
                 <div class="px-10 space-y-5 text-center md:text-left">
-                    <h1 class="font-bold md:font-semibold text-2xl md:text-4xl">FREE COFFEE <br/> IS A TAP AWAY</h1>
+                    <h1 class="text-2xl font-bold md:font-semibold md:text-4xl">FREE COFFEE <br/> IS A TAP AWAY</h1>
                     <h4 class="text-lg md:text-xl">Join now to start earning Rewards.</h4>
                     <div>
-                        <button class="text-white text-lg font-medium py-1 px-4  rounded-3xl  bg-green-800 hover:bg-green-700 focus:outline-none"> <span class="md:hidden">Join in the app</span> <span class="hidden md:inline">Join now</span></button>
+                        <button class="px-4 py-1 text-lg font-medium text-white bg-green-800 rounded-3xl hover:bg-green-700 focus:outline-none"> <span class="md:hidden">Join in the app</span> <span class="hidden md:inline">Join now</span></button>
                     </div>
-                    <h3 class="text-lg md:text-xl"> <span class="md:hidden underline hover:no-underline"> <a href="#"> Or join online</a></span> <span class="hidden md:inline">Or <a href="#" class="underline hover:no-underline">join in the app</a> for the best experience</span> </h3>
+                    <h3 class="text-lg md:text-xl"> <span class="underline md:hidden hover:no-underline"> <a href="#"> Or join online</a></span> <span class="hidden md:inline">Or <a href="#" class="underline hover:no-underline">join in the app</a> for the best experience</span> </h3>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Second section -->
-    <section class="flex flex-col py-20 items-center justify-center max-w-screen-2xl md:m-auto md:py-32">
+    <section class="flex flex-col items-center justify-center py-20 max-w-screen-2xl md:m-auto md:py-32">
         <!-- main -->
-        <div class="flex flex-col space-y-12 px-5 md:px-20">
+        <div class="flex flex-col px-5 space-y-12 md:px-20">
             
             <!-- inner-1 -->
-            <div class="text-center space-y-6">
-                <h1 class="font-semibold text-3xl">Getting started is easy</h1>
+            <div class="space-y-6 text-center">
+                <h1 class="text-3xl font-semibold md:text-4xl">Getting started is easy</h1>
                 <p>Earn Stars and get rewarded in a few easy steps.</p>
             </div>
 
             <!-- inner-2 -->
             <div class="flex flex-col space-y-8 md:text-center md:flex-row md:space-y-0">
-                <div class="flex flex-row space-x-3 md:items-center md:flex-col md:space-y-3">
-                    <div class="w-12">
-                        <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-1@2x.jpg" alt="one">
+                <div class="flex space-x-3 md:items-center md:flex-col md:space-y-3">
+                    <div class="flex-shrink-0 w-12">
+                        <img src="img/one.webp" alt="one">
                     </div>
                     <div>
-                        <h2 class="font-semibold text-xl">Create an account</h2>
-                        <p>To get started, <a href="#" class="underline text-green-600 hover:no-underline ">join now</a>. You can also <a href="#" class="underline hover:no-underline text-green-600 ">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
+                        <h2 class="text-xl font-semibold">Create an account</h2>
+                        <p>To get started, <a href="#" class="text-green-600 underline hover:no-underline ">join now</a>. You can also <a href="#" class="text-green-600 underline hover:no-underline ">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
                     </div>
                 </div>
                 <div class="flex flex-row space-x-3 md:items-center md:flex-col md:space-y-3">
-                    <div class="w-12">
-                        <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-2@2x.jpg" alt="two">
+                    <div class="flex-shrink-0 w-12">
+                        <img src="img/two.webp" alt="two">
                     </div>
                     <div>
-                        <h2 class="font-semibold text-xl">Order and pay how you’d like</h2>
-                        <p>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="#" class="underline hover:no-underline text-green-600 ">Learn how</a></p>
+                        <h2 class="text-xl font-semibold">Order and pay how you’d like</h2>
+                        <p>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="#" class="text-green-600 underline hover:no-underline ">Learn how</a></p>
                     </div>
                     </div>
                 <div class="flex flex-row space-x-3 md:items-center md:flex-col md:space-y-3"> 
-                    <div class="w-12">
-                        <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-3@2x.jpg" alt="three">
+                    <div class="flex-shrink-0 w-12">
+                        <img src="img/three.webp" alt="three">
                     </div>
                     <div>
-                        <h2 class="font-semibold text-xl">Earn Stars, get Rewards</h2>
+                        <h2 class="text-xl font-semibold">Earn Stars, get Rewards</h2>
                         <p>As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
                     </div>
                 </div>
@@ -123,25 +121,25 @@
     <!-- Third section  -->
     <section>
         <!-- first subsection -->
-        <div class="flex flex-col pt-12 md:pt-16 space-y-4 md:space-y-16 items-center bg-blue-50">
-            <h1 class="font-semibold text-4xl">Get your favorites for free</h1>
-            <div class="flex flex-row font-semibold text-xl md:text-3xl justify-between w-full max-w-screen-sm px-10">
-                <h3 class="p-2">25 <span class="text-yellow-500 text-base">★</span> </h3>
-                <h3 class="p-2">50 <span class="text-yellow-500 text-base">★</span> </h3>
-                <h3 class="p-2">150 <span class="text-yellow-500 text-base">★</span> </h3>
-                <h3 class="p-2">200 <span class="text-yellow-500 text-base">★</span> </h3>
-                <h3 class="p-2">400 <span class="text-yellow-500 text-base">★</span> </h3>
+        <div class="flex flex-col items-center pt-12 space-y-4 md:pt-16 md:space-y-16 bg-blue-50">
+            <h1 class="text-3xl font-semibold md:text-4xl">Get your favorites for free</h1>
+            <div class="flex flex-row justify-between w-full max-w-screen-sm px-10 text-xl font-semibold md:text-3xl">
+                <h3 class="p-2">25 <span class="text-base text-yellow-500">★</span> </h3>
+                <h3 class="p-2">50 <span class="text-base text-yellow-500">★</span> </h3>
+                <h3 class="p-2">150 <span class="text-base text-yellow-500">★</span> </h3>
+                <h3 class="p-2">200 <span class="text-base text-yellow-500">★</span> </h3>
+                <h3 class="p-2">400 <span class="text-base text-yellow-500">★</span> </h3>
             </div>
         </div>
 
         <!-- second subsection -->
         <div class="flex justify-center pb-12 bg-blue-100 md:p-8">
             <div class="flex flex-col max-w-screen-md md:flex-row">
-                <div class="py-8 md:py-0 md:mr-12 max-w-screen-sm">
-                    <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/025.png" alt="">
+                <div class="max-w-screen-sm py-8 md:py-0 md:mr-12">
+                    <img src="img/drink.webp" alt="drink image">
                 </div>
-                <div class="flex flex-col p-5 justify-center text-center space-y-3 md:text-left">
-                    <h1 class="font-semibold text-3xl">Customize your drink</h1>
+                <div class="flex flex-col justify-center p-5 space-y-3 text-center md:text-left">
+                    <h1 class="text-3xl font-semibold">Customize your drink</h1>
                     <p>Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.</p>
                 </div>
             </div>
@@ -151,41 +149,41 @@
     <!-- Fourth section -->
     <section class="py-20 md:py-32">
         <!-- main -->
-        <div class="px-5 md:px-20 space-y-16 max-w-screen-2xl m-auto">
+        <div class="px-5 m-auto space-y-16 md:px-20 max-w-screen-2xl">
             <!-- inner-1 -->
-            <div class="text-center space-y-5 max-w-screen-md m-auto">
-                <h1 class="font-semibold text-3xl">Endless Extras</h1>
+            <div class="max-w-screen-md m-auto space-y-5 text-center">
+                <h1 class="text-3xl font-semibold md:text-4xl">Endless Extras</h1>
                 <p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty Rewards and—yes, free coffee.</p>
             </div>
 
             <!-- inner-2 -->
             <div class="flex flex-col space-y-10 md:flex-row md:text-center md:space-y-0 md:space-x-10">
                 <div class="flex flex-row md:flex-col">
-                    <div class="flex mr-5 justify-center flex-shrink-0">
-                        <img class="w-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" alt="img1">
+                    <div class="flex justify-center flex-shrink-0 mr-5">
+                        <img class="w-28 h-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" alt="img1">
                     </div>
                     <div class="space-y-5">
-                        <h2 class="font-semibold text-xl">Fun freebies</h2>
+                        <h2 class="text-xl font-semibold">Fun freebies</h2>
                         <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
                         <a href="#" class="text-green-800 underline hover:no-underline">Learn more</a>
                     </div>
                 </div>
                 <div class="flex flex-row md:flex-col">
-                    <div class="flex mr-5 justify-center flex-shrink-0">
-                        <img class="w-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" alt="img2">
+                    <div class="flex justify-center flex-shrink-0 mr-5">
+                        <img class="w-28 h-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" alt="img2">
                     </div>
                     <div class="space-y-5">
-                        <h2 class="font-semibold text-xl">Order & pay ahead</h2>
+                        <h2 class="text-xl font-semibold">Order & pay ahead</h2>
                         <p>Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.</p>
                         <a href="#" class="text-green-800 underline hover:no-underline">Learn more</a>
                     </div>
                 </div>
                 <div class="flex flex-row md:flex-col">
-                    <div class="flex mr-5 justify-center flex-shrink-0">
-                        <img class="w-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" alt="img3">
+                    <div class="flex justify-center flex-shrink-0 mr-5">
+                        <img class="w-28 h-28" src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" alt="img3">
                     </div>
                     <div class="space-y-5">
-                        <h2 class="font-semibold text-xl">Get to free faster</h2>
+                        <h2 class="text-xl font-semibold">Get to free faster</h2>
                         <p>Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
                         <a href="#" class="text-green-800 underline hover:no-underline">Learn more</a>
                     </div>
@@ -195,42 +193,42 @@
     </section>
 
     <!-- Fifth section -->
-    <section class="bg-gray-100 px-5 md:px-10 ">
+    <section class="px-5 bg-gray-100 md:px-10 ">
         <!-- main -->
-        <div class="space-y-12 py-16 max-w-screen-2xl m-auto">
+        <div class="py-16 m-auto space-y-12 max-w-screen-2xl">
             <!-- inner-1 -->
-            <div class="text-center space-y-5 max-w-2xl m-auto">
-                <h1 class="font-semibold text-3xl ">Cash or card, you earn Stars</h1>
+            <div class="max-w-2xl m-auto space-y-5 text-center">
+                <h1 class="text-3xl font-semibold md:text-4xl ">Cash or card, you earn Stars</h1>
                 <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p>
             </div>
 
             <!-- inner-2 -->
             <div class="max-w-7xl">
                 <!-- inner-2.1 -->
-                <div class="space-y-10 lg:flex lg:space-y-0 pb-8">
+                <div class="pb-8 space-y-10 lg:flex lg:space-y-0">
                     <div class="lg:w-1/5">
-                        <h1 class="font-semibold text-2xl">1<span class="text-lg">★</span> per dollar</h1>
+                        <h1 class="text-2xl font-semibold">1<span class="text-lg">★</span> per dollar</h1>
                         <p>Pay as you go</p>
                     </div>
                     <div class="flex flex-col space-y-5 lg:flex-row lg:space-y-0 lg:w-4/5">
                         <div class="lg:w-1/2">
                             <div class="flex flex-row">
-                                <div class="mr-5 flex-shrink-0">
+                                <div class="flex-shrink-0 mr-5">
                                     <img class="w-28" src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/1A.png" alt="">
                                 </div>
                                 <div class="space-y-3">
-                                    <h2 class="font-semibold text-xl">Scan and pay seperately</h2>
+                                    <h2 class="text-xl font-semibold">Scan and pay seperately</h2>
                                     <p>Use cash or credit/debit card at the register.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="lg:w-1/2">
                             <div class="flex flex-row">
-                                <div class="mr-5 flex-shrink-0">
+                                <div class="flex-shrink-0 mr-5">
                                     <img class="w-28 " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/1B.png" alt="">
                                 </div>
                                 <div class="space-y-3">
-                                    <h2 class="font-semibold text-xl">Save payment in the app</h2>
+                                    <h2 class="text-xl font-semibold">Save payment in the app</h2>
                                     <p>Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order ahead or scan and pay at the register in one step.</p>
                                 </div>
                             </div>
@@ -241,30 +239,30 @@
                 <hr class="bg-gray-300 border">
                 
                 <!-- inner-2.2 -->
-                <div class="space-y-10 pt-10 lg:flex lg:space-y-0 pb-8">
+                <div class="pt-10 pb-8 space-y-10 lg:flex lg:space-y-0">
                     <div class="lg:w-1/5">
-                        <h1 class="font-semibold text-2xl">2<span class="text-lg">★</span> per dollar</h1>
+                        <h1 class="text-2xl font-semibold">2<span class="text-lg">★</span> per dollar</h1>
                         <p>Add funds in the app</p>
                     </div>
                     <div class="flex flex-col space-y-5 lg:flex-row lg:space-y-0 lg:w-4/5">
                         <div class="lg:w-1/2">
                             <div class="flex flex-row">
-                                <div class="mr-5 flex-shrink-0">
+                                <div class="flex-shrink-0 mr-5">
                                     <img class="w-28" src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/2A.png" alt="">
                                 </div>
                                 <div class="space-y-3">
-                                    <h2 class="font-semibold text-xl">Preload</h2>
+                                    <h2 class="text-xl font-semibold">Preload</h2>
                                     <p>To save time and earn Stars twice as fast, add money to your digital Starbucks Card using any payment option. Scan and pay in one step or order ahead in the app.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="lg:w-1/2">
                             <div class="flex flex-row">
-                                <div class="mr-5 flex-shrink-0">
+                                <div class="flex-shrink-0 mr-5">
                                     <img class="w-28 " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/2B.png" alt="">
                                 </div>
                                 <div class="space-y-3">
-                                    <h2 class="font-semibold text-xl">Register your gift card</h2>
+                                    <h2 class="text-xl font-semibold">Register your gift card</h2>
                                     <p>Then use it to pay through the app. You can even consolidate balances from multiple cards in one place.</p>
                                 </div>
                             </div>
@@ -275,18 +273,18 @@
                 <hr class="bg-gray-300 border">
 
                 <!-- inner-2.3 -->
-                <div class="space-y-10 pt-10 lg:flex lg:space-y-0">
+                <div class="pt-10 space-y-10 lg:flex lg:space-y-0">
                     <div class="lg:w-1/5">
-                        <h1 class="font-semibold text-2xl">Up to 3<span class="text-lg">★</span> per dollar</h1>
+                        <h1 class="text-2xl font-semibold">Up to 3<span class="text-lg">★</span> per dollar</h1>
                         <p>With Starbucks® Rewards Visa® Card</p>
                     </div>
                     <div class="lg:w-2/5">
                         <div class="flex flex-row">
-                            <div class="mr-5 flex-shrink-0">
+                            <div class="flex-shrink-0 mr-5">
                                 <img class="w-28" src="	https://www.starbucks.com/weblx/images/rewards/ways-to-pay/3A.png" alt="">
                             </div>
                             <div class="space-y-3">
-                                <h2 class="font-semibold text-xl">Earn Stars even faster</h2>
+                                <h2 class="text-xl font-semibold">Earn Stars even faster</h2>
                                 <p>Earn Stars on all purchases you make with our <a href="#" class="text-green-700 underline hover:no-underline">credit card</a> opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when you pay with that preloaded Starbucks Card.</p>
                             </div>
                         </div>
@@ -299,17 +297,17 @@
     <!-- Sixth section -->
     <section>
         <!-- main -->
-        <div class="m-auto px-5 py-20 space-y-16 md:max-w-screen-sm lg:max-w-screen-md md:py-32">
+        <div class="px-5 py-20 m-auto space-y-16 md:max-w-screen-sm lg:max-w-screen-md md:py-32">
             <!-- inner-1 -->
             <div class="space-y-5">
-                <h1 class="font-semibold text-3xl">Star Codes</h1>
+                <h1 class="text-3xl font-semibold md:text-4xl">Star Codes</h1>
                 <p>Yesssss. You’ve got Stars in your hand. Enter your code here and we’ll add Stars to your account.</p>
                 <div>
                     <div class="pb-3">
-                        <input class="w-full p-2 rounded-lg border-gray-400 border-2 text-black placeholder-black placeholder-opacity-100" type="text" placeholder="Enter your Star Code">
+                        <input class="w-full p-2 text-black placeholder-black placeholder-opacity-100 border-2 border-gray-400 rounded-lg" type="text" placeholder="Enter your Star Code">
                     </div>
                     <div class="text-right">
-                        <button class="border-black hover:bg-gray-200 rounded-3xl py-1 px-5 border-2 text-black focus:outline-none">Submit</button>
+                        <button class="px-5 py-1 text-black border-2 border-black hover:bg-gray-200 rounded-3xl focus:outline-none">Submit</button>
                     </div>
                 </div>
                 <p>Have a receipt but don't have a code? <br/> Go to <a href="#" class="text-green-700 underline hover:no-underline">starbucks-stars.com</a> to upload your receipt and collect your Stars.</p>
@@ -317,7 +315,7 @@
 
             <!-- inner-2 -->
             <div class="space-y-5 md:pt-16">
-                <h1 class="font-semibold text-3xl">Questions?</h1>
+                <h1 class="text-3xl font-semibold md:text-4xl">Questions?</h1>
                 <p>We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked questions right over here <a href="#" class="text-green-700 underline hover:no-underline">opens in new window</a>.</p>
             </div>
         </div>
@@ -326,7 +324,7 @@
     <!-- Seventh section -->
     <section class="bg-gray-100">
         <!-- main -->
-        <div class="px-5 md:px-10 py-8 md:py-12 space-y-8 max-w-screen-2xl m-auto">
+        <div class="px-5 py-8 m-auto space-y-8 md:px-10 md:py-12 max-w-screen-2xl">
             <!-- heading -->
             <h1>At participating stores. Restrictions apply.</h1>
 
@@ -334,13 +332,13 @@
                 <!-- inner-1 -->
                 <div class="space-y-8 md:w-1/2">
                     <div class="space-y-4">
-                        <h1 class="text-gray-600 font-medium">EARNING STARS</h1>
+                        <h1 class="font-medium text-gray-600">EARNING STARS</h1>
                         <p>Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads.</p>
                         <p>Earn 1 Star per $1 spent when you scan your member barcode in the app, then pay with cash, credit/debit cards or mobile wallets at participating stores. You can also earn 1 Star per $1 spent when you link a payment method and pay directly through the app.</p>
                         <p>Earn 2 Stars per $1 spent when you load funds and pay with your digital Starbucks Card in the app. You can also earn 2 Stars per $1 spent when you pay in-person at a participating store with your registered physical Starbucks Card or scan your member barcode in the app, and then use any physical Starbucks Card (regardless of whether it is registered) to complete the purchase</p>
                     </div>
                     <div class="space-y-4">
-                        <h1 class="text-gray-600 font-medium">BENEFITS</h1>
+                        <h1 class="font-medium text-gray-600">BENEFITS</h1>
                         <p>Free refills available during same in-store visit only. To qualify for the Birthday Reward, you must have made at least one Star-earning transaction.</p>
                     </div>
                 </div>
@@ -348,7 +346,7 @@
                 <!-- inner-2 -->
                 <div class="space-y-8 md:w-1/2">
                     <div class="space-y-4">
-                        <h1 class="text-gray-600 font-medium">TERMS OF USE</h1>
+                        <h1 class="font-medium text-gray-600">TERMS OF USE</h1>
                         <p>For full program details visit <a href="#" class="text-green-700 underline hover:no-underline">starbucks.com/rewards/terms</a>.</p>
                         <p>* Earn 1 Star per $1 when digitally loading your Starbucks Card with your Starbucks® Rewards Visa® Card: See your Card Rewards Program Agreement for more details.</p>
                         <p>Starbucks® Rewards benefits are available at participating Starbucks stores. Not all stores have the ability to honor Rewards at this time. Visit the <a href="#" class="text-green-700 underline hover:no-underline">Starbucks Store Locator</a> and search for locations honoring “Redeem Rewards”.</p>
@@ -356,7 +354,7 @@
                     </div>
     
                     <div class="space-y-4">
-                        <h1 class="text-gray-600 font-medium">REDEEMING REWARDS</h1>
+                        <h1 class="font-medium text-gray-600">REDEEMING REWARDS</h1>
                         <p>Rewards cannot be redeemed for alcoholic beverages or multi-serve items. Not all stores honor tiered Rewards. Select stores redeem 150 Stars for free food or drink items only.</p>
                     </div>
                 </div>
@@ -367,16 +365,16 @@
     <Footer class="mt-12">
         <hr class="bg-gray-300 border">
         <!-- main -->
-        <div class="py-12 px-5 max-w-screen-2xl m-auto lg:px-10">
+        <div class="px-5 py-12 m-auto max-w-screen-2xl lg:px-10">
             
             <!-- inner-1 -->
-            <div class="flex flex-col space-y-10 pb-12 lg:flex-row lg:space-y-0 lg:space-x-5">
+            <div class="flex flex-col pb-12 space-y-10 lg:flex-row lg:space-y-0 lg:space-x-5">
                 <div class="flex flex-row justify-between lg:w-1/5 lg:flex-col lg:space-y-8 lg:justify-start">
                     <h1 class="text-lg font-medium md:text-xl">About Us</h1>
                     <div class="lg:hidden">
                         <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                     </div>
-                    <div class="hidden lg:block text-gray-600">
+                    <div class="hidden text-gray-600 lg:block">
                         <ul class="space-y-5 md:text-lg">
                             <li class="hover:text-black"> <a href="#"> Our Heritage </a></li>
                             <li class="hover:text-black"> <a href="#"> Our Coffee </a></li>
@@ -392,7 +390,7 @@
                     <div class="lg:hidden">
                         <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                     </div>
-                    <div class="hidden lg:block text-gray-600">
+                    <div class="hidden text-gray-600 lg:block">
                         <ul class="space-y-5 md:text-lg">
                             <li class="hover:text-black"> <a href="#"> Culture and Values </a></li>
                             <li class="hover:text-black"> <a href="#"> Inclusion, Diversity, and Equity </a></li>
@@ -407,7 +405,7 @@
                     <div class="lg:hidden">
                         <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                     </div>
-                    <div class="hidden lg:block text-gray-600">
+                    <div class="hidden text-gray-600 lg:block">
                         <ul class="space-y-5 md:text-lg">
                             <li class="hover:text-black"> <a href="#"> Ethical Sourcing </a></li>
                             <li class="hover:text-black"> <a href="#"> Leading in Sustainability </a></li>
@@ -422,7 +420,7 @@
                     <div class="lg:hidden">
                         <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                     </div>
-                    <div class="hidden lg:block text-gray-600">
+                    <div class="hidden text-gray-600 lg:block">
                         <ul class="space-y-5 md:text-lg">
                             <li class="hover:text-black"> <a href="#"> Landlord Support Center </a></li>
                             <li class="hover:text-black"> <a href="#"> Suppliers </a></li>
@@ -436,7 +434,7 @@
                     <div class="lg:hidden">
                         <svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
                     </div>
-                    <div class="hidden lg:block text-gray-600">
+                    <div class="hidden text-gray-600 lg:block">
                         <ul class="space-y-5 md:text-lg">
                             <li class="hover:text-black"> <a href="#"> Order on the App </a></li>
                             <li class="hover:text-black"> <a href="#"> Order on the Web </a></li>
@@ -487,7 +485,7 @@
             </div>
         
             <!-- inner-3 -->
-            <div class="flex flex-col text-lg w-full space-y-8 lg:flex-row lg:space-y-0 lg:space-x-5">
+            <div class="flex flex-col w-full space-y-8 text-lg lg:flex-row lg:space-y-0 lg:space-x-5">
                 <a href="#" class="hover:underline">Privacy Policy</a>
                 <span class="hidden lg:inline">|</span>
                 <a href="#" class="hover:underline">Terms of Use</a>
